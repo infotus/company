@@ -1,4 +1,5 @@
 import React from "react";
+import backgroundImg from "../assets/future-with-ai.png"
 import {TypeAnimation} from "react-type-animation";
 import {FaFacebook, FaInstagram, FaXTwitter, FaYoutube, FaSquareThreads} from "react-icons/fa6";
 
@@ -6,7 +7,7 @@ import {FaFacebook, FaInstagram, FaXTwitter, FaYoutube, FaSquareThreads} from "r
 const Main = () => {
     return(
         <div id="main">
-            <img className='w-full h-screen object-cover object-center' src='/src/assets/future-with-ai.png' />
+            <img className='w-full h-screen object-cover object-center' src={backgroundImg}/>
             <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center ld:items-start items-center'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>
