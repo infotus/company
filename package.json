@@ -1,7 +1,7 @@
 {
   "name": "homepage",
   "homepage": "https://infotus.github.io/company",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
