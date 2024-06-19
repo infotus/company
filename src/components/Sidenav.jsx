@@ -12,7 +12,7 @@ const Sidenav = () => {
 
     return (
         <div>
-            <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden' />
+            <AiOutlineMenu onClick={handleNav} className='fixed w-[7%] h-[7%] top-4 right-4 z-[99] md:hidden' />
             {
                 nav ? (
                     // Mobile View

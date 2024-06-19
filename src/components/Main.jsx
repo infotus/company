@@ -14,16 +14,16 @@ const Main = () => {
                     MALINO
                 </h1>
                 <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
-                    In here
+                    
                     <TypeAnimation
                         sequence={[
-                            'Malino',
+                            'Empowering',
                             1000, 
-                            'or',
+                            'Innovation,',
                             1000,
-                            'Marino ',
+                            'Transforming ',
                             1000,
-                            'or',
+                            'Tommorrow',
                             1000,
                         ]}
                         wrapper="div"
