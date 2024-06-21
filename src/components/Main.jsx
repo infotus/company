@@ -8,23 +8,23 @@ const Main = () => {
     return(
         <div id="main">
             <img className='w-full h-screen object-cover object-center' src={backgroundImg}/>
-            <div className='w-full h-screen absolute top-0 left-0 '>
+            <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center ld:items-start items-center'>
-                <h1 className='sm:text-5xl text-4xl font-bold text-green-800'>
+                <h1 className='sm:text-5xl text-4xl font-bold text-cyan-800'>
                     MALINO
                 </h1>
-                <h2 className='flex sm:text-3xl text-2xl pt-4 text-green-800'>
+                <h2 className='p-10 flex sm:text-3xl text-2xl pt-4 text-cyan-800'>
                     
                     <TypeAnimation
                         sequence={[
                             'Empowering',
-                            1000, 
-                            'Innovation,',
-                            1000,
-                            'Transforming ',
-                            1000,
+                            2000, 
+                            'Innovation',
+                            2000,
+                            'Transforming',
+                            2000,
                             'Tommorrow',
-                            1000,
+                            2000,
                         ]}
                         wrapper="div"
                         speed={50}
