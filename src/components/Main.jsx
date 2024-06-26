@@ -11,7 +11,7 @@ const Main = () => {
             <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center ld:items-start items-center'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-cyan-800'>
-                    MALINO
+                    HIVIAI
                 </h1>
                 <h2 className='p-10 flex sm:text-3xl text-2xl pt-4 text-cyan-800'>
                     
